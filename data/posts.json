@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "slug": "where-the-fabric-comes-from",
+      "title": "Where the fabric comes from",
+      "date": "2026-10-01",
+      "excerpt": "Estate sales, Goodwill, friends’ closets and a kimono shop in Japan.",
+      "body": [
+        "The fabric comes from all over the place: estate sales, Goodwill, friends’ closets, a second-hand kimono shop in Japan, and more.",
+        "I’ll never know the full story of each piece of fabric, but I love knowing it lived a life somewhere else — and that I get to give it a new one here."
+      ],
+      "draft": true,
+      "confirm": "[CONFIRM WITH CLIENT: draft written from Kim’s caption themes; Kim to approve or rewrite]"
+    },
+    {
+      "slug": "making-it-a-business",
+      "title": "The year I finally started",
+      "date": "2026-10-05",
+      "excerpt": "Starting a slow-fashion brand alongside a full-time job.",
+      "body": [
+        "2025 was the year I finally started the business. I met so many good people as a market vendor.",
+        "I’m still figuring out how to balance a full-time job with sewing, which is why everything here happens slowly, in small batches."
+      ],
+      "draft": true,
+      "confirm": "[CONFIRM WITH CLIENT: draft written from Kim’s caption themes; Kim to approve or rewrite]"
+    },
+    {
+      "slug": "what-to-do-with-scraps",
+      "title": "What to do with all the scraps?",
+      "date": "2026-10-10",
+      "excerpt": "Patches, leg warmers, tote panels — nothing gets wasted.",
+      "body": [
+        "Every project leaves a pile of scraps. Some become patches, some become tote panels, some wait in a bin for the right idea.",
+        "If you have ideas — or a garment that needs a patch — come find me at the next market."
+      ],
+      "draft": true,
+      "confirm": "[CONFIRM WITH CLIENT: draft written from Kim’s caption themes; Kim to approve or rewrite]"
+    }
+  ]
+}

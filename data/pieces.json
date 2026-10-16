@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "slug": "cucumber-tote",
+      "name": "Cucumber tote",
+      "sketch": "tote",
+      "category": "Totes & bags",
+      "summary": "A roomy everyday tote in the spirit of the cucumber tote one customer says gets compliments every single time.",
+      "materials": "Second-hand cotton canvas and thrifted print scraps.",
+      "story": "Estate-sale and Goodwill fabric, cut and pieced in small batches.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "kimono-scrap-tote",
+      "name": "Kimono-scrap tote",
+      "sketch": "tote",
+      "category": "Totes & bags",
+      "summary": "A tote pieced from remnants that came from a second-hand kimono shop in Japan.",
+      "materials": "Second-hand kimono fabric remnants, recycled canvas lining.",
+      "story": "From a 2nd-hand kimono shop in Japan — credited as sourcing, not as a design style.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "patchwork-shoulder-bag",
+      "name": "Patchwork shoulder bag",
+      "sketch": "bag",
+      "category": "Totes & bags",
+      "summary": "A small shoulder bag stitched from friends’ closet clean-outs.",
+      "materials": "Mixed second-hand cottons and denim.",
+      "story": "Friends’ closets — fabric that lived its life elsewhere first.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "thrifted-midi-skirt",
+      "name": "Thrifted midi skirt",
+      "sketch": "skirt",
+      "category": "Clothing",
+      "summary": "A one-of-one skirt cut from thrifted yardage, like the bag-and-skirt pair a customer loves.",
+      "materials": "Thrifted woven fabric.",
+      "story": "Goodwill yardage, reworked into a new shape.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "chiffon-drop-waist-dress",
+      "name": "Chiffon drop-waist dress",
+      "sketch": "dress",
+      "category": "Clothing",
+      "summary": "A drop-waist dress made from thrifted chiffon fabric.",
+      "materials": "Thrifted chiffon.",
+      "story": "Second-hand chiffon found thrifting (Aug 2025 post).",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "immaculate-top",
+      "name": "Pieced summer top",
+      "sketch": "top",
+      "category": "Clothing",
+      "summary": "A simple pieced top — the kind Kim made “for fun” after six months away from sewing.",
+      "materials": "Second-hand cotton remnants.",
+      "story": "Estate-sale remnants and scrap-bin finds.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    },
+    {
+      "slug": "denim-scrap-tote",
+      "name": "Denim scrap tote",
+      "sketch": "tote",
+      "category": "Totes & bags",
+      "summary": "A sturdy tote patched together from jean scraps.",
+      "materials": "Second-hand denim scraps.",
+      "story": "Old jeans that were too worn to wear, too good to toss.",
+      "size": "One of one",
+      "status": "ask",
+      "price": null,
+      "sketchNote": "Sketch — Kim’s photo coming",
+      "confirm": "[CONFIRM WITH CLIENT: representative example only; replace with a real piece, size and status]"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+ "name": "Bagong Buhay",
+ "fullName": "Bagong Buhay Upcycle",
+ "owner": "Kim",
+ "tagline": "Old materials, new life.",
+ "nameMeaning": "Bagong buhay means “new life” in Tagalog — Kim’s mission is to give old materials new life.",
+ "location": "Hillsboro, OR · handmade in PDX",
+ "region": "Portland area, Oregon",
+ "instagram": "https://www.instagram.com/bagongbuhayupcycle/",
+ "handle": "@bagongbuhayupcycle",
+ "siteUrl": "https://bagongbuhay.example",
+ "conceptPreview": true,
+ "founded": "2025",
+ "updated": "2026-10-15",
+ "confirm": {
+  "domain": "[CONFIRM WITH CLIENT: final domain (placeholder bagongbuhay.example)]",
+  "email": "[CONFIRM WITH CLIENT: public email address, if any]",
+  "surname": "[CONFIRM WITH CLIENT: keep first name only? (site uses ‘Kim’)]",
+  "testimonials": "[CONFIRM WITH CLIENT: OK to quote two Instagram comments without handles?]",
+  "holds": "[CONFIRM WITH CLIENT: are DM/website holds OK, and for how long?]",
+  "upcycleService": "[CONFIRM WITH CLIENT: does Kim want to take ‘give it a new life’ requests at all?]",
+  "patchStudio": "[CONFIRM WITH CLIENT: patch styles/prices for future patch parties]",
+  "dropList": "[CONFIRM WITH CLIENT: email tool for the drop list (Buttondown/Mailchimp) + mailing address for CAN-SPAM footer]",
+  "photos": "[CONFIRM WITH CLIENT: Kim’s own product photos to replace sketches + AI stand-ins]",
+  "pricing": "[CONFIRM WITH CLIENT: no prices published anywhere; keep ‘ask’ or add ranges?]",
+  "shipping": "[CONFIRM WITH CLIENT: ships or local pickup only?]"
+ },
+ "requestsOpen": true
+}

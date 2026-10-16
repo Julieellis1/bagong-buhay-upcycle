@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "first-market-2025",
+      "name": "First market ever",
+      "start": "2025-05-11",
+      "end": "2025-05-11",
+      "venue": "Portland area",
+      "address": "",
+      "note": "“Sharing my creations with the Portland community.”",
+      "confirm": "[CONFIRM WITH CLIENT: market name]"
+    },
+    {
+      "id": "mpm16-2025",
+      "name": "MPM16 — second market ever",
+      "start": "2025-06-28",
+      "end": "2025-06-28",
+      "venue": "Portland area",
+      "address": "",
+      "note": "Posted Jul 2, 2025: “MPM16 aka, my second market ever!”",
+      "dateApprox": true,
+      "confirm": "[CONFIRM WITH CLIENT: full market name, venue and exact date]"
+    },
+    {
+      "id": "belmont-street-fair-2026",
+      "name": "Belmont Street Fair — patch party with @craftea.fg",
+      "start": "2026-09-19T10:00:00-07:00",
+      "end": "2026-09-19T16:00:00-07:00",
+      "venue": "Belmont Street Fair",
+      "address": "SE Belmont St & SE 35th Ave, Portland, OR",
+      "lat": 45.5163,
+      "lng": -122.6276,
+      "note": "Bring clothing or fabric accessories, pick a patch, sew it on. Plus handmade clothing, crafts, notions and stationery.",
+      "hours": "Booth 10am–4pm · fair 10am–5pm"
+    }
+  ]
+}

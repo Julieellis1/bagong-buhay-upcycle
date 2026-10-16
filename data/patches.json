@@ -1,0 +1,24 @@
+{
+  "shapes": [
+    "Circle",
+    "Square",
+    "Heart",
+    "Cucumber",
+    "Star",
+    "Scrap (freeform)"
+  ],
+  "fabrics": [
+    "Denim scrap",
+    "Kimono remnant",
+    "Floral cotton",
+    "Canvas"
+  ],
+  "stitches": [
+    "Running stitch",
+    "Sashiko-style grid",
+    "Blanket stitch",
+    "Machine zigzag"
+  ],
+  "note": "Planner for patch parties. Bring a garment, pick a patch, sew it on.",
+  "confirm": "[CONFIRM WITH CLIENT: real patch options and prices]"
+}

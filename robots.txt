@@ -1,0 +1,3 @@
+# Concept preview: unapproved by the client. Block all crawlers.
+User-agent: *
+Disallow: /

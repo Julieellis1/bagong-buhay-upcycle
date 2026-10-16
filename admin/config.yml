@@ -1,0 +1,104 @@
+# Decap CMS — Kim edits the JSON in /data; every save is a git commit (rollback-able).
+# Netlify build command: `python3 tools/build_pages.py` so pre-rendered HTML picks up edits.
+# Markets (upcoming/past split, countdown) also read /data/events.json live in the browser.
+backend:
+  name: git-gateway
+  branch: main
+# local_backend: true   # for `npx decap-server` on a laptop
+publish_mode: editorial_workflow
+media_folder: "site/assets/uploads"
+public_folder: "/assets/uploads"
+site_url: https://bagongbuhay.example
+logo_url: /assets/icons/icon-192.png
+
+collections:
+  - name: settings
+    label: "Site settings"
+    files:
+      - name: settings
+        label: "Settings"
+        file: "site/data/settings.json"
+        fields:
+          - { name: conceptPreview, label: "Show the concept-preview ribbon (turn off after approval)", widget: boolean, default: true }
+          - { name: name, label: "Brand name", widget: string }
+          - { name: fullName, label: "Full name", widget: string }
+          - { name: owner, label: "Owner first name", widget: string }
+          - { name: tagline, label: "Tagline", widget: string }
+          - { name: nameMeaning, label: "Name meaning", widget: text }
+          - { name: location, label: "Location line", widget: string }
+          - { name: instagram, label: "Instagram URL", widget: string }
+          - { name: handle, label: "Instagram handle", widget: string }
+          - { name: siteUrl, label: "Site URL", widget: string }
+          - { name: requestsOpen, label: "Taking upcycle requests?", widget: boolean, default: true, required: false }
+  - name: pieces
+    label: "Pieces"
+    files:
+      - name: pieces
+        label: "All pieces"
+        file: "site/data/pieces.json"
+        fields:
+          - name: items
+            label: "Pieces"
+            widget: list
+            fields:
+              - { name: slug, label: "URL slug", widget: string }
+              - { name: name, label: "Name", widget: string }
+              - { name: sketch, label: "Sketch type", widget: select, options: [tote, bag, skirt, dress, top, jacket] }
+              - { name: photo, label: "Photo (replaces sketch)", widget: image, required: false }
+              - { name: category, label: "Category", widget: select, options: ["Totes & bags", "Clothing"] }
+              - { name: summary, label: "Summary", widget: text }
+              - { name: materials, label: "Materials", widget: string }
+              - { name: story, label: "Where the fabric came from", widget: text }
+              - { name: size, label: "Size / fit", widget: string }
+              - { name: status, label: "Status", widget: select, options: [ask, available, held, sold] }
+  - name: events
+    label: "Markets"
+    files:
+      - name: events
+        label: "Markets & pop-ups"
+        file: "site/data/events.json"
+        fields:
+          - name: items
+            label: "Events"
+            widget: list
+            fields:
+              - { name: id, label: "ID", widget: string }
+              - { name: name, label: "Name", widget: string }
+              - { name: start, label: "Start (ISO, e.g. 2026-11-21T10:00:00-08:00)", widget: string }
+              - { name: end, label: "End", widget: string }
+              - { name: venue, label: "Venue", widget: string }
+              - { name: address, label: "Address", widget: string, required: false }
+              - { name: lat, label: "Latitude", widget: number, value_type: float, required: false }
+              - { name: lng, label: "Longitude", widget: number, value_type: float, required: false }
+              - { name: note, label: "Note", widget: text, required: false }
+  - name: faqs
+    label: "FAQ"
+    files:
+      - name: faqs
+        label: "Questions"
+        file: "site/data/faqs.json"
+        fields:
+          - name: items
+            label: "Q&A"
+            widget: list
+            fields:
+              - { name: q, label: "Question", widget: string }
+              - { name: a, label: "Answer", widget: text }
+  - name: posts
+    label: "Field notes"
+    files:
+      - name: posts
+        label: "Posts"
+        file: "site/data/posts.json"
+        fields:
+          - name: items
+            label: "Posts"
+            widget: list
+            fields:
+              - { name: slug, label: "Slug", widget: string }
+              - { name: title, label: "Title", widget: string }
+              - { name: date, label: "Date", widget: datetime, format: "YYYY-MM-DD", time_format: false }
+              - { name: excerpt, label: "Excerpt", widget: string }
+              - { name: body, label: "Paragraphs", widget: list, field: { name: p, label: Paragraph, widget: text } }
+              - { name: draft, label: "Draft", widget: boolean, default: true }
+# Note: Decap list-at-root needs `items` wrappers; tools/build_pages.py accepts both a bare array and {"items": [...]}.

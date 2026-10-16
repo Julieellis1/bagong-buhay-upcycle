@@ -1,0 +1,24 @@
+{
+  "garments": [
+    "Jeans or denim",
+    "Jacket",
+    "Dress",
+    "Skirt",
+    "Top or tee",
+    "Tote or bag",
+    "Fabric I want made into something",
+    "Other"
+  ],
+  "goals": [
+    "Patch a hole or worn spot",
+    "Make it fit differently",
+    "Turn it into something new",
+    "Add visible mending as decoration",
+    "Not sure — ideas welcome"
+  ],
+  "timing": [
+    "No rush",
+    "For a specific date (tell me below)"
+  ],
+  "confirm": "[CONFIRM WITH CLIENT: is Kim taking these requests? which garment types?]"
+}
